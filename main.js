@@ -1,3 +1,16 @@
-document.getElementById("intro").innerHTML = "Hello World"
+const myName = 'roz';
+let myAge = 10;
 
-// Hello Roz this is Kevin.
+let intro = 'my name is '+ myName + ' and i am '+ myAge + ' years old';
+
+
+
+
+
+
+// Ignore this stuff.
+
+function hello() {
+    document.getElementById("intro").innerHTML = intro;
+}
+hello();
