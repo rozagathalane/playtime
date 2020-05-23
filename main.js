@@ -15,7 +15,7 @@ let sum = 0;
 
 
 
-if (sum < 10){
+if (sum < 10) {
     console.log('hello');
 } else {
     console.log('goodbye forever!')
@@ -37,20 +37,29 @@ function hello() {
 }
 hello();
 
-function increase(){
+function increase() {
     sum++;
     document.getElementById('sum').innerHTML = sum;
-};
+}
 
 function decrease() {
     sum--;
     document.getElementById('sum').innerHTML = sum;
 }
+
+
 function add10() {
     sum = sum + 10;
     document.getElementById('sum').innerHTML = sum;
 }
+
 function minus10() {
     sum = sum - 10;
+    document.getElementById('sum').innerHTML = sum;
+}
+
+function reset() {
+    // Change the value of sum to 0 here please roz. 
+
     document.getElementById('sum').innerHTML = sum;
 }
