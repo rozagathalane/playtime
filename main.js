@@ -75,6 +75,12 @@ document.getElementById('sum').innerHTML = sum;
 hello();
 }
 
+function minus100(){
+    sum = sum - 100;
+    document.getElementById('sum').innerHTML = sum;
+    hello();
+    }
+
 function minus10() {
     sum = sum - 10;
     document.getElementById('sum').innerHTML = sum;
