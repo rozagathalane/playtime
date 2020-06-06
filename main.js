@@ -67,6 +67,14 @@ function add10() {
     hello();
 }
 
+// Roz add a function called add100 that adds 100 to the sum  
+
+function add100(){
+sum = sum + 100;
+document.getElementById('sum').innerHTML = sum;
+hello();
+}
+
 function minus10() {
     sum = sum - 10;
     document.getElementById('sum').innerHTML = sum;
