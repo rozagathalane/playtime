@@ -25,11 +25,13 @@ if (sum < 10) {
 
 
 
+ //   document.body.style.backgroundColor = "red";
 
 
 
 
-// Ignore this stuff.
+
+
 
 function hello() {
     document.getElementById("intro").innerHTML = intro;
@@ -37,13 +39,46 @@ function hello() {
     document.getElementById('sum').innerHTML = sum;
     document.getElementById('aboutFriends').innerHTML = myFriendsAndFamily
 
-   if (sum === 10){
-       console.log('this works');
-       document.body.style.backgroundColor = "red";
-   } else {
-    document.body.style.backgroundColor = "royalblue"
-      
-   }
+    switch(sum){
+        case 1:
+            document.body.style.backgroundColor = "#db1616";
+            break;
+        case 2:
+            document.body.style.backgroundColor = "#db7916";
+            break;
+        case 3:
+            document.body.style.backgroundColor = "#dbcb16";
+            break;
+        case 4:
+            document.body.style.backgroundColor = "#65db16";
+            break;
+        case 5:
+            document.body.style.backgroundColor = "#1675db";
+            break;
+        case 6:
+            document.body.style.backgroundColor = "#2616db";
+            break;
+        case 7:
+            document.body.style.backgroundColor = "#6216db";
+            break;
+        case 8:
+            document.body.style.backgroundColor = "#8916db";
+            break;
+        case 9:
+            document.body.style.backgroundColor = "#bd16db";
+            break;
+        case 10:
+            document.body.style.backgroundColor = "#db168c";
+            break;
+        default:
+            document.body.style.backgroundColor = "blue";
+            break;
+
+
+            
+    }
+
+
     
 }
 hello();
